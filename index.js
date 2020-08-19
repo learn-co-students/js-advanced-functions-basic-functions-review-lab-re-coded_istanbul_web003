@@ -31,7 +31,7 @@ const Calculator = {
 
 function actionApplyer(num, funcArr) {
     let result = num;
-    for (func of funcArr) {
+    for (const func of funcArr) {
         result = func(result);
     }
 
